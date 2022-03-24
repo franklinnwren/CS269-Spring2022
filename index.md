@@ -12,14 +12,12 @@ CS 260A, STAT 200A and 200B, ECE 236B and 236C, or equivalent courses.
 
 <!--University of California, Los Angeles  -->
 
-- Time: **Monday and Wednesday 2:00PM - 3:50PM**
-- Location: [**Zoom**](https://ucla.zoom.us/j/93417970178)  
+- Time: **Tuesday and Thursday 2:00PM - 3:50PM**
+- Location: [**BOELTER 5422**]
 - Instructor: [Quanquan Gu](http://web.cs.ucla.edu/~qgu/) (Email: qgu at cs dot ucla dot edu)   
-- Office hours: **Tuesday 1:00-2:00PM** on [**Zoom**](https://ucla.zoom.us/j/92449409010). 
+- Office hours: **Tuesday and Thursday 4:00-4:30PM** on [**EVI 382**]
 - Course Website: [https://uclaml.github.io/CS269-Spring2021/](https://uclaml.github.io/CS269-Spring2021)
-- Course Forum: [https://piazza.com/ucla/spring2021/cs269/home](https://piazza.com/ucla/spring2021/cs269/home)
 (If you haven’t already, [sign up here](piazza.com/ucla/spring2021/cs269).)
-- Gradescope: Entry Code 86D2JJ
 
 ## Recommended Textbook
 
@@ -50,9 +48,8 @@ There is no required textbook. The following are recommended textbooks:
  
 Grades will be computed based on the following factors:
 
-- Lecture Note Scribe 10%
-- Homework 40%
-- Paper Presentation 10%
+- Lecture Note Scribe 30%
+- Paper Presentation 30%
 - Project 40%
 
 ## Schedule
@@ -96,11 +93,7 @@ Students are required to scribe one lecture note. The latex template for lecture
 
 ## Homework
 
-There will be about 5 homework assignments. The lowest homework score will be dropped. **Homework is required to be written in Latex**. Latex homework template will be provided.
-Unless otherwise indicated, you may talk to other students about the homework problems but each student must hand in their own answers. You also must indicate on each homework with whom you collaborated and cite any other references and sources you use including Internet sites. 
-Homework is worth full credit before the due time. It is worth zero credit after the due time. 
-
-- The Latex template for homework can be downloaded at [here](https://www.dropbox.com/s/ycilw84s8gijn7m/Homework%20Template.zip?dl=0)
+There is no homework
 
 ## Paper Presentation
 
