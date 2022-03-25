@@ -3,7 +3,7 @@
 
 ## Overview
 
-Deep learning has achieved great success in many applications such as image processing, speech recognition and Go games. However, the reason why deep learning is so powerful remains elusive. The goal of this course is to understand the successes of deep learning by studying and building the theoretical foundations of deep learning. Topics covered by this course include but are not limited to: approximation power of neural networks, optimization for deep learning, generalization error analysis of deep learning and benign-overfitting of overparamterized learning models. Instructor will give lectures the selected topics. Students will present and discuss papers on the reading list, and do a course project.
+Deep learning has achieved great success in many applications such as image processing, speech recognition and Go games. However, the reason why deep learning is so powerful remains elusive. The goal of this course is to understand the successes of deep learning by studying and building the theoretical foundations of deep learning. Topics covered by this course include but are not limited to: optimization for deep learning, generalization error analysis of deep learning, representation learning and benign-overfitting of overparamterized learning models. Instructor will give lectures on the selected topics. Students will do a course project.
 
 ## Prerequisites
 CS 260A, STAT 200A and 200B, ECE 236B and 236C, or equivalent courses.
@@ -29,17 +29,15 @@ There is no required textbook. The following are recommended textbooks:
 5. [GBCB] Ian Goodfellow, Yoshua Bengio, Aaron Courville, and Yoshua Bengio. Deep learning. Vol. 1. Cambridge: MIT press, 2016.
 6. [ZLLS] Aston Zhang, Zack C. Lipton, Mu Li, Alex J. Smola, Dive into Deep Learning, 2018.
 
-## Other Reference
+## Reference
 
-1. [SHNGS] Soudry, D., Hoffer, E., Nacson, M. S., Gunasekar, S., & Srebro, N. (2018). The implicit bias of gradient descent on separable data. The Journal of Machine Learning Research, 19(1), 2822-2878.
-2. [GLSS] Gunasekar, S., Lee, J., Soudry, D., & Srebro, N. (2018, July). Characterizing implicit bias in terms of optimization geometry. In International Conference on Machine Learning (pp. 1832-1841). PMLR.
-3. [NLGSSS] Nacson, M. S., Lee, J., Gunasekar, S., Savarese, P. H. P., Srebro, N., & Soudry, D. (2019, April). Convergence of gradient descent on separable data. In 22nd International Conference on Artificial Intelligence and Statistics (pp. 3420-3428). PMLR.	
-4. [DZPS] Du, S. S., Zhai, X., Poczos, B., & Singh, A. (2019). Gradient descent provably optimizes over-parameterized neural networks. ICLR.
-5. [MMN] Song, M., Montanari, A., & Nguyen, P. (2018). A mean field view of the landscape of two-layers neural networks. Proceedings of the National Academy of Sciences.
-6. [CB] Chizat, L., & Bach, F. (2018). On the global convergence of gradient descent for over-parameterized models using optimal transport. In NeurIPS.
-7. [FDZ] Fang, C., Dong, H., & Zhang, T. (2019). Over parameterized two-level neural networks can learn near optimal feature representations. arXiv preprint arXiv:1910.11508.
-8. [BLLT] Bartlett, P. L., Long, P. M., Lugosi, G., & Tsigler, A. (2020). Benign overfitting in linear regression. Proceedings of the National Academy of Sciences, 117(48), 30063-30070.
-9. [ZWBGK] Zou, D., Wu, J., Braverman, V., Gu, Q., & Kakade, S. M. (2021). Benign Overfitting of Constant-Stepsize SGD for Linear Regression. In COLT.
+1. [BLLT] Bartlett, P. L., Long, P. M., Lugosi, G., & Tsigler, A. (2020). Benign overfitting in linear regression. Proceedings of the National Academy of Sciences, 117(48), 30063-30070.
+2. [TB] Tsigler, A. & Bartlett,  (2020). Benign overfitting in ridge regression. arXiv preprint arXiv:2009.14286.
+3. [ZWBGK] Zou, D., Wu, J., Braverman, V., Gu, Q., & Kakade, S. M. (2021). Benign Overfitting of Constant-Stepsize SGD for Linear Regression. In COLT.
+4. [WZBGK] Wu, J., Zou, D., Braverman, V., Gu, Q., & Kakade, S. M. (2021). Last Iterate Risk Bounds of SGD with Decaying Stepsize for Overparameterized Linear Regression. arXiv preprint arXiv:2110.06198, 2021.
+5. [ZWBGFK] Zou, D., Wu, J., Braverman, V., Gu, Q., & Kakade, S. M. (2021). The Benefits of Implicit Regularization from SGD in Least Squares Problems. In NeurIPS.
+6. [ZWBGFK] Zou, D., Wu, J., Braverman, V., Gu, Q., & Kakade, S. M. (2021). Risk Bounds of Multi-Pass SGD for Least Squares in the Interpolation Regime. In NeurIPS.
+7. [CCBG] Zou, D., Wu, J., Braverman, V., Gu, Q., & Kakade, S. M. (2021). Benign Overfitting of Constant-Stepsize SGD for Linear Regression. arXiv preprint 
 	
 
 
@@ -56,27 +54,27 @@ Grades will be computed based on the following factors:
 
 | # | Date  | Topic  | note | scribed note | reading materials  | homework |
 |----|----|----|----|----|----|----|
-| 1 | 3/29 | Introduction  | [note](https://www.dropbox.com/s/481ak9zj6bxfcoy/Lecture%201%20March%2029.pdf?dl=0) | [scribe note](https://www.dropbox.com/sh/dsnk0z7b73544r8/AAABp1oZvkab9fZz7S67M0s0a?dl=0) | CH0-1 of [T] ||
-| 2 | 3/31 | Benign Overfitting of Linear Regression | [note](https://www.dropbox.com/s/rw6b28hyen8x1iu/Lecture%202%20March%2031.pdf?dl=0) | [scribe note](https://www.dropbox.com/s/8jg5bltoknz0luf/Lecture2.pdf?dl=0) | CH2-3 of [T] ||
-| 3 | 4/5 | Benign Overfitting of Linear Regression | [note](https://www.dropbox.com/s/r0vmou4xvmof8vc/Lecture%203%20April%205.pdf?dl=0) | [scribe note](https://www.dropbox.com/s/uvi3w6s8drz2beh/Lecture3.pdf?dl=0) | CH3-4 of [T] |
-| 4 | 4/7 | Benign Overfitting of Ridge Regression | [note](https://www.dropbox.com/s/om7ear4qad28txd/Lecture%204%20April%207.pdf?dl=0) |  [scribe note](https://www.dropbox.com/s/m1bmxr9urt9qgvg/Lecture4.pdf?dl=0)| CH4-5 of [T] |[HW1](https://www.dropbox.com/s/hn2j0o6oqziwubk/HW1.pdf?dl=0) out|
+| 1 | 3/29 | Introduction  | [note](https://www.dropbox.com/s/481ak9zj6bxfcoy/Lecture%201%20March%2029.pdf?dl=0) | [scribe note](https://www.dropbox.com/sh/dsnk0z7b73544r8/AAABp1oZvkab9fZz7S67M0s0a?dl=0) | [BLLT] ||
+| 2 | 3/31 | Benign Overfitting of Linear Regression I | [note](https://www.dropbox.com/s/rw6b28hyen8x1iu/Lecture%202%20March%2031.pdf?dl=0) | [scribe note](https://www.dropbox.com/s/8jg5bltoknz0luf/Lecture2.pdf?dl=0) | CH2-3 of [T] ||
+| 3 | 4/5 | Benign Overfitting of Linear Regression II | [note](https://www.dropbox.com/s/r0vmou4xvmof8vc/Lecture%203%20April%205.pdf?dl=0) | [scribe note](https://www.dropbox.com/s/uvi3w6s8drz2beh/Lecture3.pdf?dl=0) | CH3-4 of [T] |
+| 4 | 4/7 | Benign Overfitting of Ridge Regression I| [note](https://www.dropbox.com/s/om7ear4qad28txd/Lecture%204%20April%207.pdf?dl=0) |  [scribe note](https://www.dropbox.com/s/m1bmxr9urt9qgvg/Lecture4.pdf?dl=0)| CH4-5 of [T] |[HW1](https://www.dropbox.com/s/hn2j0o6oqziwubk/HW1.pdf?dl=0) out|
 | 5 | 4/12 | Benign Overfitting of Ridge Regression II | [note](https://www.dropbox.com/s/17nexzucqiph2qn/Lecture%205%20April%2012.pdf?dl=0) | [scribe note](https://www.dropbox.com/s/rggfd1qla2dacrd/lecture5.pdf?dl=0) | CH9 of [A],[SHNGS] ||
 | 6 | 4/14 | Benign Overfitting of SGD I| [note](https://www.dropbox.com/s/681c19aj09u2j7e/Lecture%206%20April%2014.pdf?dl=0) | [scribe note](https://www.dropbox.com/s/rarsgy731s5g8vz/lecture6.pdf?dl=0)| CH9 of [A],[GLSS,NLGSSS] ||
 | 7 | 4/19 | Benign Overfitting of SGD II | [note](https://www.dropbox.com/s/vldpmpi2wwo14pl/Lecture%207%20April%2019.pdf?dl=0)| [scribe note](https://www.dropbox.com/s/9t2859vjjs8s0os/lecture7.pdf?dl=0) | CH14 of [T] |HW1 due|
 | 8 | 4/21 | Last Iterate Bound of SGD I | [note](https://www.dropbox.com/s/o6od1cse9y8xhpd/Lecture%208%20April%2021.pdf?dl=0) |  | CH15 of [T] |[HW2](https://www.dropbox.com/s/oxbpah4u28e3bmx/HW2.pdf?dl=0) out|
 | 9 | 4/26 | Last Iterate Bound of SGD II | [note](https://www.dropbox.com/s/sptoel3owc12pvw/Lecture%209%20April%2026.pdf?dl=0) | [scribe note](https://www.dropbox.com/s/rkjjzrwda85wci7/lecture9.pdf?dl=0) | CH10 of [A], [DZPS]  ||
-| 10 | 4/26 | Ridge Regression vs SGD I |[note](https://www.dropbox.com/s/coky1qomamnnhi8/Lecture%2010%20April%2028.pdf?dl=0) | | CH10 of [A], [DZPS] ||
-| 11 | 4/28 | Ridge Regression vs SGD II |[note](https://www.dropbox.com/s/jgpjkmtyip42oz9/Lecture%2011%20May%203.pdf?dl=0) | | CH13 of [T] |HW2 due|
-| 12 | 5/3 | Benign Overfitting of NNs I | [note](https://www.dropbox.com/s/jw2jxhc28u64hhi/Lecture%2012%20May%205.pdf?dl=0) | | [FDZ][MMN] ||
-| 13 | 5/5 | Benign Overfitting of NNs II | [note](https://www.dropbox.com/s/arj8zmc1ytir4yp/Lecture%2013%20May%2010.pdf?dl=0) |  | [FDZ][MMN] |[HW3](https://www.dropbox.com/s/rn0xclqfyfowmn6/HW3.pdf?dl=0) out|
-| 14 | 5/10 | SGD vs Adam I | [note](https://www.dropbox.com/s/cr7xugbmuvde9kn/Lecture%2014%20May%2012.pdf?dl=0) | | [FDZ][MMN] ||
-| 15 | 5/12 | SGD vs Adam II | [note](https://www.dropbox.com/s/vos4cageg1c7t9w/Lecture%2015%20May%2017.pdf?dl=0) | | CH19 of [T] ||
-| 16 | 5/17 | Canceled due to NeurIPS | [note](https://www.dropbox.com/s/pyhk2vne2ul67gh/Lecture%2016%20May%2019.pdf?dl=0) | | CH21 of [T] |HW3 due, [HW4](https://www.dropbox.com/s/6v8ur35whn12505/HW4.pdf?dl=0) out|
-| 17 | 5/19 | Mixture of Experts I | [note](https://www.dropbox.com/s/txyce90s9xgie9x/Lecture%2017%20May%2024.pdf?dl=0) | | CH21 of [T] ||
-| 18 | 5/24 | Mixture of Experts I |  | |  ||
-|  | 5/26 | Memorial Day Holiday |  | |  |HW4 due, [HW5](https://www.dropbox.com/s/t4u9faqquruaxze/HW5.pdf?dl=0) out|
-| 19 | 5/31 | Paper Presentation | [note](https://www.dropbox.com/s/v3j0rqphmo4cq9x/Lecture%2018%20June%202.pdf?dl=0) | | CH21 of [T] ||
-|  | 6/2 | Paper Presentation |  | |  |HW5 due|
+| 10 | 4/28 | Ridge Regression vs SGD I |[note](https://www.dropbox.com/s/coky1qomamnnhi8/Lecture%2010%20April%2028.pdf?dl=0) | | CH10 of [A], [DZPS] ||
+| 11 | 5/3 | Ridge Regression vs SGD II |[note](https://www.dropbox.com/s/jgpjkmtyip42oz9/Lecture%2011%20May%203.pdf?dl=0) | | CH13 of [T] |HW2 due|
+| 12 | 5/5 | Benign Overfitting of CNNs I | [note](https://www.dropbox.com/s/jw2jxhc28u64hhi/Lecture%2012%20May%205.pdf?dl=0) | | [FDZ][MMN] ||
+| 13 | 5/10 | Benign Overfitting of CNNs II | [note](https://www.dropbox.com/s/arj8zmc1ytir4yp/Lecture%2013%20May%2010.pdf?dl=0) |  | [FDZ][MMN] |[HW3](https://www.dropbox.com/s/rn0xclqfyfowmn6/HW3.pdf?dl=0) out|
+| 14 | 5/12 | SGD vs Adam I | [note](https://www.dropbox.com/s/cr7xugbmuvde9kn/Lecture%2014%20May%2012.pdf?dl=0) | | [FDZ][MMN] ||
+| 15 | 5/17 | Canceled due to NeurIPS | [note](https://www.dropbox.com/s/vos4cageg1c7t9w/Lecture%2015%20May%2017.pdf?dl=0) | | CH19 of [T] ||
+| 16 | 5/19 | SGD vs Adam II | [note](https://www.dropbox.com/s/pyhk2vne2ul67gh/Lecture%2016%20May%2019.pdf?dl=0) | | CH21 of [T] |HW3 due, [HW4](https://www.dropbox.com/s/6v8ur35whn12505/HW4.pdf?dl=0) out|
+| 17 | 5/24 | Mixture of Experts I | [note](https://www.dropbox.com/s/txyce90s9xgie9x/Lecture%2017%20May%2024.pdf?dl=0) | | CH21 of [T] ||
+| 18 | 5/26 | Mixture of Experts II |  | |  ||
+|  | 5/31 | Memorial Day Holiday |  | |  |HW4 due, [HW5](https://www.dropbox.com/s/t4u9faqquruaxze/HW5.pdf?dl=0) out|
+| 19 | 6/2 | Mixture of Experts III | [note](https://www.dropbox.com/s/v3j0rqphmo4cq9x/Lecture%2018%20June%202.pdf?dl=0) | | CH21 of [T] ||
+|  |  |  |  | |  |HW5 due|
 
 ## Academic Integrity Policy
 
@@ -130,4 +128,6 @@ There are many other great deep learning theory and statistical learning theory 
 [Sham Kakade's statistical learning theory course](http://stat.wharton.upenn.edu/~skakade/courses/stat928/)
 
 [Maxim Raginsky's statistical learning theory course](http://maxim.ece.illinois.edu/teaching/SLT/)
+
+[Quanquan Gu's foundations of deep learning course in Spring 2021](https://uclaml.github.io/CS269-Spring2021/)
 
