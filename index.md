@@ -32,12 +32,13 @@ There is no required textbook. The following are recommended textbooks:
 ## Reference
 
 1. [BLLT] Bartlett, P. L., Long, P. M., Lugosi, G., & Tsigler, A. (2020). Benign overfitting in linear regression. Proceedings of the National Academy of Sciences, 117(48), 30063-30070.
-2. [TB] Tsigler, A. & Bartlett,  (2020). Benign overfitting in ridge regression. arXiv preprint arXiv:2009.14286.
-3. [ZWBGK] Zou, D., Wu, J., Braverman, V., Gu, Q., & Kakade, S. M. (2021). Benign Overfitting of Constant-Stepsize SGD for Linear Regression. In COLT.
-4. [WZBGK] Wu, J., Zou, D., Braverman, V., Gu, Q., & Kakade, S. M. (2021). Last Iterate Risk Bounds of SGD with Decaying Stepsize for Overparameterized Linear Regression. arXiv preprint arXiv:2110.06198, 2021.
+2. [TB] Tsigler, A. & Bartlett, (2020). Benign overfitting in ridge regression. arXiv preprint arXiv:2009.14286.
+3. [ZWBGK2021] Zou, D., Wu, J., Braverman, V., Gu, Q., & Kakade, S. M. (2021). Benign Overfitting of Constant-Stepsize SGD for Linear Regression. In COLT.
+4. [WZBGK] Wu, J., Zou, D., Braverman, V., Gu, Q., & Kakade, S. M. (2021). Last Iterate Risk Bounds of SGD with Decaying Stepsize for Overparameterized Linear Regression. arXiv preprint arXiv:2110.06198.
 5. [ZWBGFK] Zou, D., Wu, J., Braverman, V., Gu, Q., & Kakade, S. M. (2021). The Benefits of Implicit Regularization from SGD in Least Squares Problems. In NeurIPS.
-6. [ZWBGFK] Zou, D., Wu, J., Braverman, V., Gu, Q., & Kakade, S. M. (2021). Risk Bounds of Multi-Pass SGD for Least Squares in the Interpolation Regime. In NeurIPS.
-7. [CCBG] Zou, D., Wu, J., Braverman, V., Gu, Q., & Kakade, S. M. (2021). Benign Overfitting of Constant-Stepsize SGD for Linear Regression. arXiv preprint 
+6. [ZWBGK2022] Zou, D., Wu, J., Braverman, V., Gu, Q., & Kakade, S. M. (2022). Risk Bounds of Multi-Pass SGD for Least Squares in the Interpolation Regime. arXiv preprint arXiv:2203.03159.
+7. [ZCLG] Zou, D., Cao, Y., Li, Y., & Gu, Q. (2021). Understanding the Generalization of Adam in Learning Neural Networks with Proper Regularization. arXiv preprint arXiv:2108.11371. 
+8. [CCBG] Cao, Y., Chen, Z., Belkin, M., & Gu, Q. (2022). Benign Overfitting in Two-layer Convolutional Neural Networks. arXiv preprint arXiv:2202.06526. 
 	
 
 
@@ -46,35 +47,34 @@ There is no required textbook. The following are recommended textbooks:
 Grades will be computed based on the following factors:
 
 - Lecture Note Scribe 30%
-- Paper Presentation 30%
-- Project 40%
+- Project 70%
 
 ## Schedule
 
 
 | # | Date  | Topic  | note | scribed note | reading materials  | homework |
 |----|----|----|----|----|----|----|
-| 1 | 3/29 | Introduction  | [note](https://www.dropbox.com/s/481ak9zj6bxfcoy/Lecture%201%20March%2029.pdf?dl=0) | [scribe note](https://www.dropbox.com/sh/dsnk0z7b73544r8/AAABp1oZvkab9fZz7S67M0s0a?dl=0) | [BLLT] ||
-| 2 | 3/31 | Benign Overfitting of Linear Regression I | [note](https://www.dropbox.com/s/rw6b28hyen8x1iu/Lecture%202%20March%2031.pdf?dl=0) | [scribe note](https://www.dropbox.com/s/8jg5bltoknz0luf/Lecture2.pdf?dl=0) | CH2-3 of [T] ||
-| 3 | 4/5 | Benign Overfitting of Linear Regression II | [note](https://www.dropbox.com/s/r0vmou4xvmof8vc/Lecture%203%20April%205.pdf?dl=0) | [scribe note](https://www.dropbox.com/s/uvi3w6s8drz2beh/Lecture3.pdf?dl=0) | CH3-4 of [T] |
-| 4 | 4/7 | Benign Overfitting of Ridge Regression I| [note](https://www.dropbox.com/s/om7ear4qad28txd/Lecture%204%20April%207.pdf?dl=0) |  [scribe note](https://www.dropbox.com/s/m1bmxr9urt9qgvg/Lecture4.pdf?dl=0)| CH4-5 of [T] |[HW1](https://www.dropbox.com/s/hn2j0o6oqziwubk/HW1.pdf?dl=0) out|
-| 5 | 4/12 | Benign Overfitting of Ridge Regression II | [note](https://www.dropbox.com/s/17nexzucqiph2qn/Lecture%205%20April%2012.pdf?dl=0) | [scribe note](https://www.dropbox.com/s/rggfd1qla2dacrd/lecture5.pdf?dl=0) | CH9 of [A],[SHNGS] ||
-| 6 | 4/14 | Benign Overfitting of SGD I| [note](https://www.dropbox.com/s/681c19aj09u2j7e/Lecture%206%20April%2014.pdf?dl=0) | [scribe note](https://www.dropbox.com/s/rarsgy731s5g8vz/lecture6.pdf?dl=0)| CH9 of [A],[GLSS,NLGSSS] ||
-| 7 | 4/19 | Benign Overfitting of SGD II | [note](https://www.dropbox.com/s/vldpmpi2wwo14pl/Lecture%207%20April%2019.pdf?dl=0)| [scribe note](https://www.dropbox.com/s/9t2859vjjs8s0os/lecture7.pdf?dl=0) | CH14 of [T] |HW1 due|
-| 8 | 4/21 | Last Iterate Bound of SGD I | [note](https://www.dropbox.com/s/o6od1cse9y8xhpd/Lecture%208%20April%2021.pdf?dl=0) |  | CH15 of [T] |[HW2](https://www.dropbox.com/s/oxbpah4u28e3bmx/HW2.pdf?dl=0) out|
-| 9 | 4/26 | Last Iterate Bound of SGD II | [note](https://www.dropbox.com/s/sptoel3owc12pvw/Lecture%209%20April%2026.pdf?dl=0) | [scribe note](https://www.dropbox.com/s/rkjjzrwda85wci7/lecture9.pdf?dl=0) | CH10 of [A], [DZPS]  ||
-| 10 | 4/28 | Ridge Regression vs SGD I |[note](https://www.dropbox.com/s/coky1qomamnnhi8/Lecture%2010%20April%2028.pdf?dl=0) | | CH10 of [A], [DZPS] ||
-| 11 | 5/3 | Ridge Regression vs SGD II |[note](https://www.dropbox.com/s/jgpjkmtyip42oz9/Lecture%2011%20May%203.pdf?dl=0) | | CH13 of [T] |HW2 due|
-| 12 | 5/5 | Benign Overfitting of CNNs I | [note](https://www.dropbox.com/s/jw2jxhc28u64hhi/Lecture%2012%20May%205.pdf?dl=0) | | [FDZ][MMN] ||
-| 13 | 5/10 | Benign Overfitting of CNNs II | [note](https://www.dropbox.com/s/arj8zmc1ytir4yp/Lecture%2013%20May%2010.pdf?dl=0) |  | [FDZ][MMN] |[HW3](https://www.dropbox.com/s/rn0xclqfyfowmn6/HW3.pdf?dl=0) out|
-| 14 | 5/12 | SGD vs Adam I | [note](https://www.dropbox.com/s/cr7xugbmuvde9kn/Lecture%2014%20May%2012.pdf?dl=0) | | [FDZ][MMN] ||
-| 15 | 5/17 | Canceled due to NeurIPS | [note](https://www.dropbox.com/s/vos4cageg1c7t9w/Lecture%2015%20May%2017.pdf?dl=0) | | CH19 of [T] ||
-| 16 | 5/19 | SGD vs Adam II | [note](https://www.dropbox.com/s/pyhk2vne2ul67gh/Lecture%2016%20May%2019.pdf?dl=0) | | CH21 of [T] |HW3 due, [HW4](https://www.dropbox.com/s/6v8ur35whn12505/HW4.pdf?dl=0) out|
-| 17 | 5/24 | Mixture of Experts I | [note](https://www.dropbox.com/s/txyce90s9xgie9x/Lecture%2017%20May%2024.pdf?dl=0) | | CH21 of [T] ||
-| 18 | 5/26 | Mixture of Experts II |  | |  ||
-|  | 5/31 | Memorial Day Holiday |  | |  |HW4 due, [HW5](https://www.dropbox.com/s/t4u9faqquruaxze/HW5.pdf?dl=0) out|
-| 19 | 6/2 | Mixture of Experts III | [note](https://www.dropbox.com/s/v3j0rqphmo4cq9x/Lecture%2018%20June%202.pdf?dl=0) | | CH21 of [T] ||
-|  |  |  |  | |  |HW5 due|
+| 1 | 3/29 | Introduction  | [note]() | [scribe note]() | ||
+| 2 | 3/31 | Benign Overfitting of Linear Regression I | [note]() | [scribe note]() | [BLLT] ||
+| 3 | 4/5 | Benign Overfitting of Linear Regression II | [note]() | [scribe note]() | [BLLT] |
+| 4 | 4/7 | Benign Overfitting of Ridge Regression I| [note]() |  [scribe note]()| [TB] ||
+| 5 | 4/12 | Benign Overfitting of Ridge Regression II | [note]() | [scribe note]() | [TB] ||
+| 6 | 4/14 | Benign Overfitting of SGD I| [note]() | [scribe note]()| [ZWBGK2021] ||
+| 7 | 4/19 | Benign Overfitting of SGD II | [note]()| [scribe note]() | [ZWBGK2021] | |
+| 8 | 4/21 | Last Iterate Bound of SGD I | [note]() |  | [WZBGK] ||
+| 9 | 4/26 | Last Iterate Bound of SGD II | [note]() | [scribe note]() | [WZBGK]  ||
+| 10 | 4/28 | Ridge Regression vs SGD I |[note]() | | [ZWBGFK] ||
+| 11 | 5/3 | Ridge Regression vs SGD II |[note]() | | [ZWBGFK] | |
+| 12 | 5/5 | Multi-pass SGD I | [note]() | | [ZWBGK2022] ||
+| 13 | 5/10 | Multi-pass SGD II | [note]() |  | [ZWBGK2022] ||
+| 14 | 5/12 | SGD vs Adam I | [note]() | | [ZCLG] ||
+|  | 5/17 | Canceled due to NeurIPS | [note]() | |  ||
+| 15 | 5/19 | SGD vs Adam II | [note]() | | [ZCLG] ||
+| 16 | 5/24 | Benign Overfitting of CNNs I | [note]() | | [CCBG] ||
+| 17 | 5/26 | Benign Overfitting of CNNs II |  | | [CCBG] ||
+| 18 | 5/31 | Memorial Day Holiday |  | |  ||
+| 19 | 6/2 | Benign Overfitting of CNNs III | [note]() | | [CCBG] ||
+|  |  |  |  | |  ||
 
 ## Academic Integrity Policy
 
@@ -87,22 +87,6 @@ Students are required to scribe one lecture note. The latex template for lecture
 
 - The signup sheet for lecture note scribing can be found at [here](https://docs.google.com/spreadsheets/d/1DFReHfI875nppSevuoDSdPy3oYV9qdjVr0SLkmLQH8I/edit?usp=sharing).
 - The Latex template for lecture note scribing can be downloaded at [here](https://www.dropbox.com/s/dfsdcpszv0hwwh4/lecture%20scribing%20template.zip?dl=0)
-
-## Homework
-
-There is no homework
-
-## Paper Presentation
-
-After each lecture, there will be a few recommended readings. Each student is required to select one paper from the list, and prepare a 20 minutes presentation for the class. One paper can only be presented by one student. Students are expected to prepare the slides by themselves, but the original authors' slides are allowed to be used with proper citation. 
-
-The paper presentation will start from week 5.
-
-Both the instructor and other students will grade the presentation (no self-grading). We will provide the detailed grading criteria later.
-
-- The list of papers for presentation can be found at [here](https://docs.google.com/spreadsheets/d/1ErLN_ClrOi2N0LvfWj8j28uX2wqivN1gVWovehX77g8/edit?usp=sharing).
-
-
 
 
 ## Project
