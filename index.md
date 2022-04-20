@@ -46,8 +46,9 @@ There is no required textbook. The following are recommended textbooks:
  
 Grades will be computed based on the following factors:
 
+- Attendance 30%
 - Lecture Note Scribe 30%
-- Project 70%
+- Project 40%
 
 ## Schedule
 
@@ -80,6 +81,9 @@ Grades will be computed based on the following factors:
 
 Students are encouraged to read the [UCLA Student Conduct Code](https://www.deanofstudents.ucla.edu/Individual-Student-Code) for Academic Integrity. 
 
+## Attendance
+
+There will be a signup sheet in each lecture. Each student can skip at most 2 lectures. The student will lose 3 points for each absence.
 
 ## Lecture Note Scribing
 
