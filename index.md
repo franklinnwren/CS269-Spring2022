@@ -63,17 +63,17 @@ Grades will be computed based on the following factors:
 | 6 | 4/14 | Benign Overfitting of Ridge Regression II| [note]() | [scribe note]()| [TB] ||
 | 7 | 4/19 | Benign Overfitting of SGD I | [note]()| [scribe note]() | [ZWBGK2021] | |
 | 8 | 4/21 | Benign Overfitting of SGD II | [note]() |  | [ZWBGK2021] ||
-| 9 | 4/26 | Last Iterate Bound of SGD I | [note]() | [scribe note]() | [WZBGK]  ||
-| 10 | 4/28 | Last Iterate Bound of SGD II |[note]() | | [WZBGK] ||
-| 11 | 5/3 | Ridge Regression vs SGD |[note]() | | [ZWBGFK] | |
-| 12 | 5/5 | Multi-pass SGD I | [note]() | | [ZWBGK2022] ||
-| 13 | 5/10 | Multi-pass SGD II | [note]() |  | [ZWBGK2022] ||
-| 14 | 5/12 | SGD vs Adam I | [note]() | | [ZCLG] ||
+| 9 | 4/26 | Benign Overfitting of SGD III | [note]() | [scribe note]() | [WZBGK]  ||
+| 10 | 4/28 | Last Iterate Bound of SGD I |[note]() | | [WZBGK] ||
+| 11 | 5/3 | Last Iterate Bound of SGD II |[note]() | | [ZWBGFK] | |
+| 12 | 5/5 | Ridge Regression vs SGD | [note]() | | [ZWBGK2022] ||
+| 13 | 5/10 | Multi-pass SGD I | [note]() |  | [ZWBGK2022] ||
+| 14 | 5/12 | Multi-pass SGD I | [note]() | | [ZCLG] ||
 |  | 5/17 | Canceled due to NeurIPS | [note]() | |  ||
-| 15 | 5/19 | SGD vs Adam II | [note]() | | [ZCLG] ||
-| 16 | 5/24 | Benign Overfitting of CNNs I | [note]() | | [CCBG] ||
-| 17 | 5/26 | Benign Overfitting of CNNs II |  | | [CCBG] ||
-| 18 | 5/31 | Memorial Day Holiday |  | |  ||
+| 15 | 5/19 | SGD vs Adam I | [note]() | | [ZCLG] ||
+| 16 | 5/24 | SGD vs Adam II | [note]() | | [CCBG] ||
+| 17 | 5/26 | Benign Overfitting of CNNs I |  | | [CCBG] ||
+| 18 | 5/31 | Benign Overfitting of CNNs II |  | |  ||
 | 19 | 6/2 | Benign Overfitting of CNNs III | [note]() | | [CCBG] ||
 |  |  |  |  | |  ||
 
