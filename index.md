@@ -56,24 +56,24 @@ Grades will be computed based on the following factors:
 | # | Date  | Topic  | note | scribed note | reading materials  | homework |
 |----|----|----|----|----|----|----|
 | 1 | 3/29 | Introduction  | [note]() | [scribe note]() | ||
-| 2 | 3/31 | Benign Overfitting of Linear Regression I | [note]() | [scribe note]() | [BLLT] ||
-| 3 | 4/5 | Benign Overfitting of Linear Regression II | [note]() | [scribe note]() | [BLLT] |
-| 4 | 4/7 | Benign Overfitting of Linear Regression III| [note]() |  [scribe note]()| [BLLT] ||
-| 5 | 4/12 | Benign Overfitting of Ridge Regression I | [note]() | [scribe note]() | [TB] ||
-| 6 | 4/14 | Benign Overfitting of Ridge Regression II| [note]() | [scribe note]()| [TB] ||
+| 2 | 3/31 | Benign Overfitting in Linear Regression I | [note]() | [scribe note]() | [BLLT] ||
+| 3 | 4/5 | Benign Overfitting in Linear Regression II | [note]() | [scribe note]() | [BLLT] |
+| 4 | 4/7 | Benign Overfitting in Linear Regression III| [note]() |  [scribe note]()| [BLLT] ||
+| 5 | 4/12 | Benign Overfitting in Ridge Regression I | [note]() | [scribe note]() | [TB] ||
+| 6 | 4/14 | Benign Overfitting in Ridge Regression II| [note]() | [scribe note]()| [TB] ||
 | 7 | 4/19 | Benign Overfitting of SGD I | [note]()| [scribe note]() | [ZWBGK2021] | |
 | 8 | 4/21 | Benign Overfitting of SGD II | [note]() |  | [ZWBGK2021] ||
-| 9 | 4/26 | Benign Overfitting of SGD III | [note]() | [scribe note]() | [WZBGK]  ||
+| 9 | 4/26 | Benign Overfitting of SGD III | [note]() | [scribe note]() | [ZWBGK2021]  ||
 | 10 | 4/28 | Last Iterate Bound of SGD I |[note]() | | [WZBGK] ||
-| 11 | 5/3 | Last Iterate Bound of SGD II |[note]() | | [ZWBGFK] | |
-| 12 | 5/5 | Ridge Regression vs SGD | [note]() | | [ZWBGK2022] ||
-| 13 | 5/10 | Multi-pass SGD I | [note]() |  | [ZWBGK2022] ||
-| 14 | 5/12 | Multi-pass SGD I | [note]() | | [ZCLG] ||
+| 11 | 5/3 | Last Iterate Bound of SGD II |[note]() | | [WZBGK] | |
+| 12 | 5/5 | Last Iterate Bound of SGD III | [note]() | | [WZBGK] ||
+| 13 | 5/10 | Ridge Regression vs SGD | [note]() |  | [ZWBGFK] ||
+| 14 | 5/12 | Ridge Regression vs SGD | [note]() | | [ZWBGFK] ||
 |  | 5/17 | Canceled due to NeurIPS | [note]() | |  ||
-| 15 | 5/19 | SGD vs Adam I | [note]() | | [ZCLG] ||
-| 16 | 5/24 | SGD vs Adam II | [note]() | | [CCBG] ||
+| 15 | 5/19 | Multi-pass SGD I | [note]() | | [ZWBGK2022] ||
+| 16 | 5/24 | Multi-pass SGD II | [note]() | | [ZWBGK2022] ||
 | 17 | 5/26 | Benign Overfitting of CNNs I |  | | [CCBG] ||
-| 18 | 5/31 | Benign Overfitting of CNNs II |  | |  ||
+| 18 | 5/31 | Benign Overfitting of CNNs II |  | | [CCBG] ||
 | 19 | 6/2 | Benign Overfitting of CNNs III | [note]() | | [CCBG] ||
 |  |  |  |  | |  ||
 
